@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
   return (
     <div>
-    <nav className="sticky navbar bg-success">
+    <nav className="sticky navbar bg-primary.bg-gradient">
         <ul className="nav-links">
             <ul className="nav-links">  
-                <li><Link to="#">Session</Link></li>
+                <li ><Link to="#" className='fs-1 font-italic'>FastEats</Link></li>
                 <li><Link to="#">Feel Good Music</Link></li>
                 <li><Link to="/login">Login</Link></li>
                 <li><Link to="#">Breathe Timer</Link></li>

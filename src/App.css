@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+/* body{
+  box-sizing: border-box;
+  height: max-content;
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -45,7 +48,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: #F3D0BA;
+  background-color: blue;
 }
 
 .nav-links a{
@@ -57,3 +60,19 @@
   font-family: "montserrat",sans-serif;
 }
 
+.card{
+  width: 18em;
+  margin-top: 5%;
+}
+
+.card-link{
+  text-decoration: none;
+  color: white;
+}
+
+.card-link:hover{
+  color: white;
+}
+.home{
+  height: 100vh;
+}
